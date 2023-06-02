@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: #fff;
+}
 nav {
   margin-top: 10px;
 }
@@ -211,6 +214,7 @@ nav {
 }
 
 main {
+  margin-top: 100px;
   background: #f2f5f9;
 }
 .card img {
@@ -268,8 +272,8 @@ section {
 
 .mouse {
   padding: 10px 10px;
-background: #FDFDFD;
-margin-top: 30px;
+  background: #fdfdfd;
+  margin-top: 30px;
 }
 .mouse h3 {
   font-family: "Inter";
@@ -322,6 +326,288 @@ margin-top: 30px;
   align-self: stretch;
   flex-grow: 0;
 }
+.nasha {
+  padding-top: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+
+  font-feature-settings: "salt" on, "liga" off;
+  color: #0f1113;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.section1 {
+  padding-top: 50px;
+  background-color: #ffffff;
+}
+.section2 {
+  background-color: #ffffff;
+}
+.five h3 {
+  color: #ff4d4d;
+}
+.five {
+  margin-top: 50px;
+}
+.five p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #0f1113;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.svoe h2 {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #0f1113;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+.svoe span {
+  color: #ff4d4d;
+}
+.now h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #0f1113;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.now h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff4d4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.now {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.sect3 {
+  margin-top: 50px;
+  background: #ffffff;
+}
+
+.kuchuk {
+  background-color: #f6f7fa;
+  display: flex;
+  padding-top: 50px;
+}
+.svoe img {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.img1 {
+  margin-left: 10px;
+}
+.img2 {
+  margin-top: 50px;
+}
+.watch {
+  margin-top: 30px;
+  padding: 10px 5px;
+  background: #f6f7fa;
+  border: 1px solid #f2f5f9;
+  border-radius: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.watch p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #7e8794;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.watch h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #263141;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.watch h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7e8794;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.watch span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #263141;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.bozor {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #0f1113;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.sect4 {
+  background: #ffffff;
+  margin-top: 50px;
+}
+.smart h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #263141;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.smart h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #7e8794;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.smart p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff4d4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.smart img {
+  width: 90%;
+}
+i {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.apple div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.apple h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a1abb9;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.apple p {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34.6193px;
+  line-height: 42px;
+  color: #0f1113;
+}
+.polli p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a1abb9;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.polli span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #263141;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+footer {
+  margin-top: 50px;
+}
+.years {
+    padding-top: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7e8794;
+}
 @media (max-width: 575px) {
   .iphone {
     text-align: center;
@@ -349,17 +635,44 @@ margin-top: 30px;
   .iphone button {
     margin-left: 100px;
   }
-  .phones{
+  .phones {
     display: grid;
-   margin-left: 123px;
-   gap: 30px;   
-}
-  .vbor{
+    margin-left: 123px;
+    gap: 30px;
+  }
+  .vbor {
     text-align: center;
   }
-  .dizxya{
+  .dizxya {
     display: grid;
     text-align: center;
     gap: 0px;
+  }
+  .kuchuk {
+    display: grid;
+  }
+  .svoe h2 {
+    font-size: 27px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .svoe img {
+    margin-left: 0;
+  }
+  .watch {
+    text-align: center;
+  }
+  .five {
+    text-align: center;
+  }
+  .vbor {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .smart {
+    text-align: center;
+  }
+  .smart h2 {
+    margin-top: 20px;
   }
 }
