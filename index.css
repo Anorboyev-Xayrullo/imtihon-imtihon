@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  margin-top: 10px;
+}
+
+.behof {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.behof p {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #263141;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.same {
+  margin-top: 5px;
+  padding: 10px 20px;
+  background: #ff4d4d;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.text {
+  display: flex;
+}
+
+.text button {
+  display: flex;
+  background: #f2f5f9;
+  border-radius: 0px 8px 8px 0px;
+  padding: 5px 50px;
+  border: none;
+}
+.text p {
+  margin-left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #a1abb9;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.shape {
+  width: 52px;
+  height: 52px;
+  background: #f2f5f9;
+  border-radius: 8px;
+}
+.ccoco {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.theme {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-left: 50px;
+}
+.shape img {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.theme button {
+  display: flex;
+  align-items: center;
+  padding: 1px 50px;
+  border: none;
+  gap: 20px;
+}
+.theme p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #a1abb9;
+  margin-top: 10px;
+}
+
+/* Nav end */
+
+.cards {
+  margin-top: 100px;
+  padding: 10px 20px;
+  background: #f2f5f9;
+  border-radius: 16px;
+}
+.iphone {
+  margin-top: 100px;
+  padding: 10px 20px;
+  background: #f2f5f9;
+  border-radius: 16px;
+}
+.cards button {
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  background: #ff4d4d;
+  border-radius: 8px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  z-index: 4;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: none;
+}
+.iphone button {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  background: #ff4d4d;
+  border-radius: 8px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  z-index: 4;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: none;
+}
+.iphone img {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.cards h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 72px;
+  color: #000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+.iphone h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 72px;
+  color: #000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.cards span {
+  color: #ff4d4d;
+}
+.iphone span {
+  color: #ff4d4d;
+}
+.jkjkljl {
+  width: 10%;
+}
+.vbor {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0f1113;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+main {
+  background: #f2f5f9;
+}
+.card img {
+  width: 100%;
+  margin-top: 10px;
+}
+.card p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #263141;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.phones {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+/* Main end */
+
+.dizxya {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.dizxya p {
+  padding: 5px 10px;
+  background: #fdfdfd;
+  border: 1px solid #f2f5f9;
+  border-radius: 8px;
+  margin-top: 115px;
+  color: #ff4d4d;
+}
+
+.dizxya span {
+  margin-top: 100px;
+  padding: 5px 10px;
+  background: #fdfdfd;
+  border: 1px solid #f2f5f9;
+  border-radius: 8px;
+}
+
+section {
+  background: #f2f5f9;
+}
+
+.mouse {
+  padding: 10px 10px;
+background: #FDFDFD;
+margin-top: 30px;
+}
+.mouse h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #7e8794;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 0;
+}
+.mouse h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0f1113;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 1;
+}
+.tofom {
+  margin-top: 50px;
+}
+.mouse div {
+  margin-top: -150px;
+  margin-left: 200px;
+}
+.mouse div img {
+  width: 10%;
+}
+
+.mouse p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #7e8794;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+@media (max-width: 575px) {
+  .iphone {
+    text-align: center;
+  }
+  .cards {
+    text-align: center;
+  }
+  .iphone h2 {
+    font-weight: 500;
+    font-size: 26px;
+  }
+  .cards h2 {
+    font-weight: 500;
+    font-size: 26px;
+  }
+  .theme {
+    margin-top: 20px;
+  }
+  .ccoco {
+    margin-left: 90px;
+  }
+  .behof img {
+    margin-left: 100px;
+  }
+  .iphone button {
+    margin-left: 100px;
+  }
+  .phones{
+    display: grid;
+   margin-left: 123px;
+   gap: 30px;   
+}
+  .vbor{
+    text-align: center;
+  }
+  .dizxya{
+    display: grid;
+    text-align: center;
+    gap: 0px;
+  }
+}
