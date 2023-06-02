@@ -7,6 +7,7 @@
 }
 body {
   background: #fff;
+  overflow-x:hidden;
 }
 nav {
   margin-top: 10px;
@@ -637,7 +638,7 @@ footer {
   }
   .phones {
     display: grid;
-    margin-left: 123px;
+   justify-content: center;
     gap: 30px;
   }
   .vbor {
